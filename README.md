@@ -2,7 +2,7 @@
 This library is tested only in Google Chrome.
 
 ## Description 
-Hide console logs, save your logs by categories/period, protect your logs by setup a password.
+Auto hide console logs, save your logs by categories/period, protect your logs by setup a password.
 Instead *console.log("Hello");* you can use **dev123.log("Hello", "good");** and the message will be saved and displayed with green when you want to see it in console.
 
 ## Display logs
