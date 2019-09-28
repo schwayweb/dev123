@@ -6,7 +6,7 @@ Auto hide console logs, save your logs by categories/period, protect your logs b
 Instead of use *console.log("Hello");* you can use **dev123.log("Hello", "good");** and the message will be saved and displayed with green when you want to see it in console.
 
 ## Display logs
-After you opened your console log press **CTRL+SHIFT+L** and the display settings popup will open.
+After you opened your console log press **CTRL+SHIFT+L**.
 If your logs is protected enter your password and the logs category. Else just enter your logs category or leave empty for all logs.
 
 ## How to use it
