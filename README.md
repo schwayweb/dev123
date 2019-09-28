@@ -28,7 +28,7 @@ dev123.log(price, "good", "Price:", "price_category");
 ```
 dev123.pwd('your password');
 ```
-**Attention!!!** Use it only for public data.Do not use this for private data because this password can be cracked by hackers.
+**Attention!!!** Use it only for public data.Do not use this option for private data because this password can be cracked by hackers.
 
 ## How to set logs to be always visible in console 
 ```
