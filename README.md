@@ -21,7 +21,7 @@ dev123.log(message, color, header, category);
 ## Example
 ```
 var price = 10;
-dev123.log(price, "good","Price:", "price_category");
+dev123.log(price, "good", "Price:", "price_category");
 ```
 
 ## How to set a password for your logs
