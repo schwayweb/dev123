@@ -24,17 +24,18 @@ var price = 10;
 dev123.log(price, "good","Price:", "price_category");
 ```
 
-## How to set password a password for your logs
+## How to set a password for your logs
 ```
 dev123.pwd('your password');
 ```
+**Attention!!!** Do not use this for private data because this password can be cracked by hackers.
 
 ## How to set logs to be always visible in console 
 ```
 dev123.visibility(true);
 ```
 
-## How to set logs to be visible in all browsers ( default value: only Google Chrome )
+## How to set logs to be visible in all browsers (Default value: only Google Chrome)
 ```
 dev123.allBrowsers(true);
 ```
