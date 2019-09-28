@@ -1,4 +1,4 @@
-# Javascript - Advanced Console Log for developers 
+# JS DEV123 - Advanced Console Log for developers 
 This library is tested only in Google Chrome.
 
 ## Description 
