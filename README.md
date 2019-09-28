@@ -35,7 +35,7 @@ Attention!!! Use it only for public data.Do not use this for private data becaus
 dev123.visibility(true);
 ```
 
-## How to set logs to be visible in all browsers(Default value: only Google Chrome)
+## How to set logs to be visible in all browsers (default value: only Google Chrome)
 ```
 dev123.allBrowsers(true);
 ```
