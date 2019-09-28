@@ -1,4 +1,5 @@
-# Javascript - Advanced Console Log for developers ( tested only in Google Chrome )
+# Javascript - Advanced Console Log for developers 
+This library is tested only in Google Chrome.
 
 ## Description 
 Hide console logs, save your logs by categories/period, protect your logs by setup a password.
