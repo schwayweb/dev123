@@ -40,7 +40,7 @@ if(dev123 === undefined
             if(dev123.password !== '') {
                 var password = prompt("Developer password:", "Type your developer password.");
                 
-                if(password === dev123.password) {
+                if(dev123.e(window.location.hostname, password) === dev123.password) {
                     dev123.show(category, password);
                     dev123.tries = 0;
                 } else {
@@ -60,7 +60,7 @@ if(dev123 === undefined
         },
         pwd: function(password){
             // Change Password
-            dev123.password = password;
+            dev123.password = dev123.e(window.location.hostname, password);
         },
         visibility: function(visible){
             dev123.visible = visible;
@@ -191,6 +191,13 @@ if(dev123 === undefined
         normal: function(){
             var color = 'color: #000;';
             return color;
+        },
+        e: function(key, value) {
+          var result="";
+          for(i=0;i<value.length;++i) {
+            result+=String.fromCharCode(key[i % key.length]^value.charCodeAt(i));
+          }
+          return result;
         }
     };
     
